@@ -11,7 +11,7 @@ class App extends Component {
       <ApolloProvider client = {client}>
         <Router>
           <React.Fragment>
-            <Route exact={true} path={"/"} component={Home} />
+            <Route exact={true} path={"/"} component={Home} /> 
             <Route path={"/details/:movieId"} component={Detail} />
           </React.Fragment>
         </Router>
@@ -21,3 +21,5 @@ class App extends Component {
 }
 
 export default App;
+
+// When Route exact={true}, will only match if the path matches the location.pathname exactly.

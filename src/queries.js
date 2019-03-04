@@ -1,4 +1,4 @@
-import gql from "graphql-tag";
+import gql from "graphql-tag"; //  to use gql module:
 
 export const HOME_PAGE = gql`
   {
@@ -6,6 +6,7 @@ export const HOME_PAGE = gql`
       id
       title
       genres
+      rating
     }
   }
 `;
