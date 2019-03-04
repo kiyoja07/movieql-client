@@ -9,3 +9,7 @@ Client for the MovieQL API with Apollo
 2. React Apollo
 - https://github.com/apollographql/react-apollo
 - React integration for Apollo Client
+
+3. graphql-tag
+- https://github.com/apollographql/graphql-tag
+- Helpful utilities for parsing GraphQL queries
